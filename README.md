@@ -1,4 +1,4 @@
 # login_register_form
 
-git clone
+<code>git clone</code>
 git set url origin
