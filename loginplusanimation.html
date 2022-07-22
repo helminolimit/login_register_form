@@ -3,25 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="merlin"/>
     <link rel="stylesheet" href="/assets/versiondua.css" />
-    <title>Sign in</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <title>Register/Sign-in</title>
   </head>
   <body>
+    <header>
+        <h1><a>MerlinCodes</a></h1>
+    </header>
     <div class="container">
-      <h1>Sign In</h1>
-      <form>
-        <div class="form-control">
-          <input id="email" type="text" required />
-          <label for="email">Your Email</label>
-        </div>
-        <div class="form-control">
-          <input id="password" type="password" required />
-          <label for="password">Your Password</label>
-        </div>
-        <button type="button" class="btn">Submit</button>
-        <p class="text">Don't have an account? <a href="#">Create Account</a></p>
-      </form>
+    <h1>Register Here</h1>
+        <form>
+            <div class="form-control">
+                <input id="uname" type="text" required />
+                <label for="uname">Your Username</label>
+              </div>
+            <div class="form-control">
+              <input id="email" type="text" required />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-control">
+              <input id="password" type="password" required />
+              <label for="password">Your Password</labe>
+            </div>
+            <div class="form-control">
+                <input id="repassword" type="password" required />
+                <label for="repassword">Re-type Your Password</labe>
+            </div>
+            <input id="terms" type="checkbox"/>
+            <label for="terms">I agree terms & condition</label>    
+          <button type="button" class="btn">Register</button>
+         <p class="text">Already have an account? <a href="#">Log in</a></p>
+        </form>
     </div>
+
+    <div class="container">
+        <h1>Sign In</h1>
+            <form>
+                <div class="form-control">
+                  <input id="email1" type="text" required />
+                  <label for="email1">Your Email</label>
+                </div>
+                <div class="form-control">
+                  <input id="password1" type="password" required />
+                  <label for="password1">Your Password</labe>
+                </div>
+                <input id="terms" type="checkbox"/>
+            <label for="terms">Remember me</label>
+              <button type="button" class="btn">Submit</button>
+             <p class="text">Don't have an account? <a href="#">Create Account</a></p>
+            </form>
+        </div>
     <script src="/assets/js/script.js"></script>
   </body>
 </html>

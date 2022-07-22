@@ -9,14 +9,18 @@ font-family: 'Poppins', sans-serif;
   background-color: #F9F9F9;
   color: #fff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 100vh;
   overflow: hidden;
   margin: 0;
 }
 
+header{
+    color: black;
+    font-size: 1em;  
+}
 .container {
   background-color: #800;
   padding: 20px 40px;
